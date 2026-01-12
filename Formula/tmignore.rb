@@ -5,7 +5,6 @@ class Tmignore < Formula
 	sha256 "37cca0593f9c3919b49cbb4f76d0242280c9eb771aaeecc72025d81acb409e30"
 	head "https://github.com/samuelmeuli/tmignore.git"
 
-	depends_on :macos => :high_sierra
 	depends_on :xcode => :build
 
 	def install
