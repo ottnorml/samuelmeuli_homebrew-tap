@@ -6,7 +6,7 @@ class Tmignore < Formula
 	head "https://github.com/samuelmeuli/tmignore.git"
 
 	depends_on macos: :big_sur
-	depends_on :xcode => :build
+	depends_on xcode: :build
 
 	def install
 		system "make", "build"
